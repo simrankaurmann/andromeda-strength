@@ -2,7 +2,6 @@ import { Link, graphql } from 'gatsby';
 import { formatPostDate, formatReadingTime } from '../utils/helpers';
 
 import Bio from '../components/Bio';
-import Footer from '../components/Footer';
 import Layout from '../components/Layout';
 import Panel from '../components/Panel';
 import React from 'react';
@@ -21,23 +20,9 @@ class BlogIndexTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO />
         <aside>
-          <Bio />
+          <Bio theme={'light'} />
         </aside>
         <main>
-          {langKey !== 'en' && langKey !== 'ru' && (
-            <Panel>
-              These articles have been{' '}
-              <a
-                href="https://github.com/gaearon/overreacted.io#contributing-translations"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                translated by the community
-              </a>
-              .
-            </Panel>
-          )}
-
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug;
             return (
@@ -70,7 +55,6 @@ class BlogIndexTemplate extends React.Component {
             );
           })}
         </main>
-        <Footer />
       </Layout>
     );
   }

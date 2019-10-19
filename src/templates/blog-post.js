@@ -6,7 +6,8 @@ import '../fonts/fonts-post.css';
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import Signup from '../components/Signup';
+// Sandeep might want a sign up to newsletter feature later
+// import Signup from '../components/Signup';
 import Panel from '../components/Panel';
 import { formatPostDate, formatReadingTime } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
@@ -169,17 +170,6 @@ class BlogPostTemplate extends React.Component {
               )}
             </header>
             <div dangerouslySetInnerHTML={{ __html: html }} />
-            <footer>
-              <p>
-                <a href={discussUrl} target="_blank" rel="noopener noreferrer">
-                  Discuss on Twitter
-                </a>
-                {` • `}
-                <a href={editUrl} target="_blank" rel="noopener noreferrer">
-                  Edit on GitHub
-                </a>
-              </p>
-            </footer>
           </article>
         </main>
         <aside>
@@ -189,7 +179,7 @@ class BlogPostTemplate extends React.Component {
               fontFamily: systemFont,
             }}
           >
-            <Signup />
+            {/* <Signup /> */}
           </div>
           <h3
             style={{
@@ -201,11 +191,11 @@ class BlogPostTemplate extends React.Component {
               style={{
                 boxShadow: 'none',
                 textDecoration: 'none',
-                color: 'var(--pink)',
+                color: 'var(--green)',
               }}
               to={'/'}
             >
-              Overreacted
+              Andromeda
             </Link>
           </h3>
           <Bio />
