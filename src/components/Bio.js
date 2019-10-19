@@ -1,31 +1,44 @@
 import React from 'react';
-import profilePic from '../assets/profile-pic.jpg';
+import darkProfilePic from '../assets/profile-pic-dark.png';
+import lightProfilePic from '../assets/profile-pic-light.png';
 import { rhythm } from '../utils/typography';
 
-class Bio extends React.Component {
-  render() {
-    return (
-      <div
-        style={{
-          display: 'flex',
-          marginBottom: rhythm(2),
-        }}
-      >
+const Bio = ({ theme }) => {
+  return (
+    <div
+      style={{
+        display: 'flex',
+        marginBottom: rhythm(2),
+      }}
+    >
+      {theme === 'dark' ? (
         <img
-          src={profilePic}
+          src={darkProfilePic}
           alt={`Sandeep Singh`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
             width: rhythm(2),
             height: rhythm(2),
-            borderRadius: '50%',
           }}
         />
-        <p style={{ maxWidth: 310 }}>Personal blog by Sandeep Singh</p>
-      </div>
-    );
-  }
-}
+      ) : (
+        <img
+          src={lightProfilePic}
+          alt={`Sandeep Singh`}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            width: rhythm(2),
+            height: rhythm(2),
+          }}
+        />
+      )}
+      <p style={{ maxWidth: 310, marginTop: 12 }}>
+        Personal blog by Sandeep Singh
+      </p>
+    </div>
+  );
+};
 
 export default Bio;
