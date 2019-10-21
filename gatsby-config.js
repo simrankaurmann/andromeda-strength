@@ -134,8 +134,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Overreacted`,
-        short_name: `Overreacted`,
+        name: `Andromeda-strength`,
+        short_name: `Andromeda`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffa7c4`,
