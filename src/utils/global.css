@@ -12,6 +12,8 @@ body.light {
   --hr: hsla(0, 0%, 0%, 0.2);
   --inlineCode-bg: rgba(255, 229, 100, 0.2);
   --inlineCode-text: #1a1a1a;
+  /* --neonText: rgb(165, 253, 218); */
+  --neonText: #36be88;
 }
 
 body.dark {
@@ -25,6 +27,7 @@ body.dark {
   --hr: hsla(0, 0%, 100%, 0.2);
   --inlineCode-bg: hsl(222, 14%, 25%);
   --inlineCode-text: #e6e6e6;
+  --neonText: #ffffff;
 }
 
 /*

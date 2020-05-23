@@ -1,0 +1,50 @@
+span {
+  padding: 0;
+}
+
+#neon:hover span {
+  animation: flicker 1s linear forwards;
+}
+
+#neon:hover #e {
+  animation-delay: 200ms;
+}
+
+#neon:hover #o {
+  animation-delay: 500ms;
+}
+
+#neon:hover #n2 {
+  animation-delay: 600ms;
+}
+
+@keyframes flicker {
+  0% {
+    color: #333;
+  }
+  5%,
+  15%,
+  25% {
+    color: var(--neonText);
+    text-shadow: 0px 0px 25px cyan;
+  }
+  10%,
+  20% {
+    color: #333;
+    text-shadow: none;
+  }
+
+  30% {
+    color: var(--neonText);
+    text-shadow: 0px 0px 25px cyan;
+  }
+
+  100% {
+    color: var(--neonText);
+    text-shadow: 0px 0px 25px cyan;
+  }
+}
+
+#neon:focus {
+  outline: none;
+}

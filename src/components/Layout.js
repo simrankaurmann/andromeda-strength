@@ -7,6 +7,8 @@ import { rhythm, scale } from '../utils/typography';
 import sun from '../assets/sun.png';
 import moon from '../assets/moon.png';
 
+import './Layout.css';
+
 class Layout extends React.Component {
   state = {
     theme: null,
@@ -24,6 +26,7 @@ class Layout extends React.Component {
     if (location.pathname === rootPath) {
       return (
         <h1
+          id="neon"
           style={{
             ...scale(0.75),
             marginBottom: 0,
@@ -38,7 +41,25 @@ class Layout extends React.Component {
             }}
             to={'/'}
           >
-            {title}
+            {/* {title} */}
+            <span id="n">A</span>
+            <span id="e">N</span>
+            <span id="o">D</span>
+            <span id="n2">R</span>
+            <span id="n2">O</span>
+            <span id="n2">M</span>
+            <span id="n2">E</span>
+            <span id="n2">D</span>
+            <span id="n2">A</span>
+            <span id="n2"> </span>
+            <span id="n2">S</span>
+            <span id="n2">T</span>
+            <span id="n2">R</span>
+            <span id="n2">E</span>
+            <span id="n2">N</span>
+            <span id="n2">G</span>
+            <span id="n2">T</span>
+            <span id="n2">H</span>
           </Link>
         </h1>
       );
