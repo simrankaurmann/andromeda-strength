@@ -1,10 +1,10 @@
 ---
-title: How your Life is in the Jungle
-date: '2019-10-05'
+title: How your life is in the Jungle 🌳
+date: '2019-10-06'
 spoiler: Do I live in the jungle? 
 ---
 
-We live in the jungle. There we are, roaming around, huddling with your crew, feeding on the shrubs. Some birds sitting on the trees.
+Sandeep live in the jungle. There we are, roaming around, huddling with your crew, feeding on the shrubs. Some birds sitting on the trees.
 
 You in majesty. This is your life in your jungle, the way you live and exist. Do the best you can with what you have. It’s your life how you choose to live. I want you to know that you have perfect control on how you conduct yourself. That little range of motion to drink water. Or that grand strategy that spans 10 years of your life. It could all be under your masterful control.
 
