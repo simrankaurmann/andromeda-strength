@@ -1,5 +1,5 @@
 ---
-title: 'Making Sense of Life with Weights'
+title: Making Sense of Life with Weights 🏋
 date: '2019-10-05'
 spoiler: The hardships, gains, injuries, pressure, and persistence.
 ---
