@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Andromeda-Strength',
+    title: 'Andromeda Strength',
     author: 'Sandeep Singh',
-    description: 'Personal blog by Sandeep Singh.',
+    description: 'Alternative view to fitness and strength',
     siteUrl: 'https://andromeda-strength',
     social: {
       twitter: '@sandeep',

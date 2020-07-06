@@ -9,11 +9,7 @@ class Confirm extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <main>
-          <h1>Just one more thing...</h1>
-          <p>
-            Thank you for subscribing. You will need to check your inbox and
-            confirm your subscription.
-          </p>
+          <h1>Thank you for subscribing!</h1>
         </main>
       </Layout>
     );

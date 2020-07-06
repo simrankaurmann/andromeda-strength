@@ -7,7 +7,7 @@ import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 // Sandeep might want a sign up to newsletter feature later
-// import Signup from '../components/Signup';
+import Signup from '../components/Signup';
 import Panel from '../components/Panel';
 import { formatPostDate, formatReadingTime } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
@@ -60,7 +60,7 @@ class BlogPostTemplate extends React.Component {
               fontFamily: systemFont,
             }}
           >
-            {/* <Signup /> */}
+            <Signup />
           </div>
           <h3
             style={{
@@ -72,7 +72,7 @@ class BlogPostTemplate extends React.Component {
               style={{
                 boxShadow: 'none',
                 textDecoration: 'none',
-                color: 'var(--green)',
+                color: 'var(--textLink)',
               }}
               to={'/'}
             >
