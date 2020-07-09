@@ -131,7 +131,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Andromeda Strength — Alternative view to fitness ',
+            title: 'Andromeda Strength — Alternative view to fitness',
           },
         ],
       },
